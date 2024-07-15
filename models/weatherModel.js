@@ -29,7 +29,7 @@ const deleteWeather = async (id) => {
 
 const fetchAndStoreWeather = async (city) => {
     try {
-        const apiKey ='c8982929e4c65b4316130b4ef3b257d2'; 
+        const apiKey ='c8982929e4c65b4316130b4ef3bdddss56'; 
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
         const response = await axios.get(url);
         const { temp } = response.data.main;
